@@ -1,0 +1,15 @@
+{
+  "rds": {
+    "username": "your-db-username",
+    "password": "your-db-password",
+    "host": "your-db-host",
+    "port": 3306,
+    "database": "your-db-name"
+  },
+  "s3_connect": {
+    "aws_access_key_id": "your-access-key-id",
+    "aws_secret_access_key": "your-secret-access-key",
+    "aws_region_name": "your-region",
+    "s3_bucket_name": "your-s3-bucket"
+  }
+}
