@@ -3,7 +3,7 @@
     "username": "",
     "password": "",
     "host": "",
-    "port": ,
+    "port": 3306,
     "database": ""
   },
   "s3_connect": {
