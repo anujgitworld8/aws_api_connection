@@ -1,0 +1,27 @@
+{
+    "platform": {
+        "800": "Linux",
+        "801": "Windows"
+    },
+    "origin": {
+        "origin_1": "",
+        "origin_2": ""
+    },
+
+    "metadata_config": {
+        "databaseType": "mysql",
+        "host": "sensor-db.clwoioo0wsgc.us-east-1.rds.amazonaws.com",
+        "port": 3306,
+        "username": "admin",
+        "psswrd": "Z0FBQUFBQm0yQUNkWDhBajFPZC1INGRwaW95VWZWY3hvb3FQS3RncUlCajBSZnNERHpYWUZhOVF1VHZMM2RmTzZROWo5U1F2b2F3MkZkM3F2Uk82Q1BZTGE4a1RwczdRd3c9PQ==",
+        "databaseName": "sensor_schema",
+        "connectionType": null,
+        "loginType": null
+    },
+    "auth_type": "BASIC",
+    "superset_url": "",
+    "tables_created": true,
+    "skip_query_server": false,
+    "skip_superset_url": false,
+    "error_log_path": "./ArchiveViewer_logs/"
+}

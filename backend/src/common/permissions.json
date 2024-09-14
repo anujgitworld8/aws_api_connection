@@ -1,0 +1,21 @@
+{
+  "allfeatures": {
+    "301": "convert",
+    "302": "monitor",
+    "303": "reports",
+    "304": "manageConnections",
+    "305": "manageUsers",
+    "306": "utilities",
+    "307": "applicationSettings"
+  },
+  "apitype": {
+    "401": "read",
+    "402": "write",
+    "403": "update",
+    "404": "delete"
+  },
+  "roles": {
+    "501": "Super User",
+    "502": "Administrator"
+  }
+}

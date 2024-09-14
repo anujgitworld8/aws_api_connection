@@ -8,7 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from backend.routes.api import router as api_router
 
 
-app = FastAPI(docs_url=None, redoc_url=None, title="MEF APIs")
+app = FastAPI(docs_url=None, redoc_url=None, title="SENSOR APIs")
 
 static_path = Path(__file__).parent.absolute() / "static"
 
@@ -19,7 +19,7 @@ app.mount("/static", StaticFiles(directory=static_path), name="static")
 async def custom_swagger_ui_html():
     return get_swagger_ui_html(
         openapi_url=app.openapi_url,
-        title=app.title + " QarbonTech - Swagger UI",
+        title=app.title + " SENSOR - Swagger UI",
         oauth2_redirect_url=app.swagger_ui_oauth2_redirect_url,
         swagger_js_url="/static/swagger-ui-bundle.js",
         swagger_css_url="/static/swagger-ui.css",
@@ -34,7 +34,7 @@ async def swagger_ui_redirect():
 async def redoc_html():
     return get_redoc_html(
         openapi_url=app.openapi_url,
-        title=app.title + " QarbonTech - ReDoc",
+        title=app.title + " Sensor - ReDoc",
         redoc_js_url="/static/redoc.standalone.js",
     )
 
