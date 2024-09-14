@@ -1,0 +1,15 @@
+{
+  "rds": {
+    "username": "admin",
+    "password": "06120612",
+    "host": "sensor-db.clwoioo0wsgc.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "database": "sensor_schema"
+  },
+  "s3_connect": {
+    "aws_access_key_id": "AKIAXNGUVQH6MKE7D65W",
+    "aws_secret_access_key": "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",
+    "aws_region_name": "us-east-1",
+    "s3_bucket_name": "sensor-bucket-001"
+  }
+}
